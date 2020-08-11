@@ -36,7 +36,6 @@ TDMQ 支持资源级授权，您可以指定子账号拥有特定资源的接口
 | ----------------------------- | ---------------- | -------- | ------------------------------------------------------------ |
 | CreateSubscription            | 创建订阅关系     | 订阅相关 | qcs::tdmq:$region:$account:topicName/$environmentId/$topicName |
 | CreateTopic                   | 新增主题         | 主题相关 | qcs::tdmq:$region:$account:environmentId/$environmentId      |
-| DeleteEnvironments            | 删除环境         | 环境相关 | qcs::tdmq:$region:$account:environmentId/$environmentIds     |
 | DeleteSubscriptions           | 删除订阅关系     | 订阅相关 | qcs::tdmq:$region:$account:topicName/$topicSets.environmentId/$topicSets.topicName/$topicSets.subscriptionName |
 | DeleteTopics                  | 删除主题         | 主题相关 | qcs::tdmq:$region:$account:topicName/$topicSets.environmentId/$topicSets.topicName |
 | DescribeEnvironmentAttributes | 获取环境属性     | 环境相关 | qcs::tdmq:$region:$account:environmentId/$environmentId      |
@@ -54,6 +53,7 @@ TDMQ 支持资源级授权，您可以指定子账号拥有特定资源的接口
 | API 名            | API 描述 | 资源六段式 |
 | ----------------- | -------- |-------- |
 | CreateEnvironment | 创建环境 |*|
+| DeleteEnvironments | 删除环境|*|
 
 ## 授权方案示例
 
